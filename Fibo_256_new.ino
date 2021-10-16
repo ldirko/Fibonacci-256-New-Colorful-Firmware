@@ -84,7 +84,7 @@ void loop() {
     nblendPaletteTowardPalette( gCurrentPalette, gTargetPalette, 16);
   }
 
-  EVERY_N_SECONDS( 30 ) {  // speed of change patterns periodically
+  EVERY_N_SECONDS( 60 ) {  // speed of change patterns periodically
     if (automode) {
       FadeOut (150);        // fade out current effect
       gCurrentPatternNumber = (gCurrentPatternNumber + 1) % ARRAY_SIZE(gPatterns); //next effect
