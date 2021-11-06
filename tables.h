@@ -79,7 +79,7 @@ const uint8_t fibonacciToPhysical[] PROGMEM = {
 
 };
 
-const uint8_t Spl_to_fibo_remap[] PROGMEM = { 
+const uint16_t Spl_to_fibo_remap[] PROGMEM = { 
 
   0, 237, 232, 201, 190, 165, 147, 129, 105, 93, 62, 57, 20, 21, 56, 63, 92, 106, 128, 148, 
   164, 191, 200, 233, 236, 234, 199, 192, 163, 149, 127, 107, 91, 64, 55, 22, 19, 255, 18, 
