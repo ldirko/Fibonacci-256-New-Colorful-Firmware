@@ -15,7 +15,6 @@
 #include <FastLED.h>
 
 #define DATA_PIN    32                //set your leds datapin   change to 32 for m5 atom lite
-#define ATOMLED_PIN 27                //set your leds datapin   change to 27 for m5 atom lite
 #define BUTTON_PIN_INPUT 39           //button pin              change to 39 for m5 atom lite
 
 #define LED_TYPE    WS2812B          //leds type
